@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="km">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ទំនាក់ទំនង - វឌ្ឍនៈ Portfolio</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;600;800&family=Kantumruy+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background Elements -->
+    <div class="bg-shape shape-1"></div>
+    <div class="bg-shape shape-2"></div>
+    <div class="bg-shape shape-3"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">V<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="index.html">ទំព័រដើម</a></li>
+                <li><a href="about.html">អំពីខ្ញុំ</a></li>
+                <li><a href="portfolio.html">ស្នាដៃ</a></li>
+                <li><a href="contact.html" class="active">ទំនាក់ទំនង</a></li>
+            </ul>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="ph ph-list"></i>
+            </button>
+        </div>
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="index.html">ទំព័រដើម</a>
+            <a href="about.html">អំពីខ្ញុំ</a>
+            <a href="portfolio.html">ស្នាដៃ</a>
+            <a href="contact.html" class="active">ទំនាក់ទំនង</a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main style="padding-top: 100px; min-height: calc(100vh - 80px);">
+        <!-- Contact Section -->
+        <section id="contact" class="contact" style="padding-top: 2rem;">
+            <div class="container">
+                <div class="section-header fade-up">
+                    <h2>ទំនាក់ទំនង<span>មកខ្ញុំ</span></h2>
+                    <p>រីករាយក្នុងការសហការ និងធ្វើការងាររួមគ្នា</p>
+                </div>
+                <div class="contact-content">
+                    <div class="contact-info glass-card fade-up">
+                        <h3>ព័ត៌មានទំនាក់ទំនង</h3>
+                        <div class="social-links">
+                            <a href="#" class="social-btn"><i class="ph ph-facebook-logo"></i> Facebook</a>
+                            <a href="#" class="social-btn"><i class="ph ph-telegram-logo"></i> Telegram</a>
+                            <a href="#" class="social-btn"><i class="ph ph-github-logo"></i> GitHub</a>
+                            <a href="#" class="social-btn"><i class="ph ph-linkedin-logo"></i> LinkedIn</a>
+                        </div>
+                    </div>
+                    <form class="contact-form glass-card fade-up delay-1" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">ឈ្មោះ</label>
+                            <input type="text" id="name" required placeholder="បញ្ចូលឈ្មោះរបស់អ្នក">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">អ៊ីមែល</label>
+                            <input type="email" id="email" required placeholder="បញ្ចូលអ៊ីមែលរបស់អ្នក">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">សារ</label>
+                            <textarea id="message" rows="4" required placeholder="សរសេរសាររបស់អ្នកទីនេះ..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary submit-btn">ផ្ញើសារ <i class="ph ph-paper-plane-tilt"></i></button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 វឌ្ឍនៈ. រក្សាសិទ្ធិគ្រប់យ៉ាង.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="km">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - ស្នាដៃ និងទំនាក់ទំនង</title>
+    <meta name="description" content="Personal portfolio showcasing works, contact information, and personal details.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;600;800&family=Kantumruy+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background Elements -->
+    <div class="bg-shape shape-1"></div>
+    <div class="bg-shape shape-2"></div>
+    <div class="bg-shape shape-3"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">V<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">ទំព័រដើម</a></li>
+                <li><a href="about.html">អំពីខ្ញុំ</a></li>
+                <li><a href="portfolio.html">ស្នាដៃ</a></li>
+                <li><a href="contact.html">ទំនាក់ទំនង</a></li>
+            </ul>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="ph ph-list"></i>
+            </button>
+        </div>
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="index.html" class="active">ទំព័រដើម</a>
+            <a href="about.html">អំពីខ្ញុំ</a>
+            <a href="portfolio.html">ស្នាដៃ</a>
+            <a href="contact.html">ទំនាក់ទំនង</a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container hero-content">
+                <div class="hero-text fade-up">
+                    <span class="greeting">សួស្តី! ខ្ញុំបាទឈ្មោះ</span>
+                    <h1 class="name">វឌ្ឍនៈ</h1>
+                    <h2 class="title">អ្នកអភិវឌ្ឍន៍ <span class="gradient-text">Web & App</span></h2>
+                    <p class="description">
+                        ខ្ញុំមានចំណង់ចំណូលចិត្តក្នុងការបង្កើតគេហទំព័រដែលមានភាពស្រស់ស្អាត ទំនើប និងផ្តល់បទពិសោធន៍ដ៏អស្ចារ្យដល់អ្នកប្រើប្រាស់។
+                    </p>
+                    <div class="hero-actions">
+                        <a href="portfolio.html" class="btn btn-primary">មើលស្នាដៃ</a>
+                        <a href="contact.html" class="btn btn-secondary">ទំនាក់ទំនងខ្ញុំ</a>
+                    </div>
+                </div>
+                <div class="hero-image fade-up delay-1">
+                    <div class="image-wrapper glass-card">
+                        <img src="assets/profile_pic.png" alt="Profile Picture" class="profile-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 វឌ្ឍនៈ. រក្សាសិទ្ធិគ្រប់យ៉ាង.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

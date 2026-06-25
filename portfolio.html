@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="km">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ស្នាដៃ - វឌ្ឍនៈ Portfolio</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;600;800&family=Kantumruy+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background Elements -->
+    <div class="bg-shape shape-1"></div>
+    <div class="bg-shape shape-2"></div>
+    <div class="bg-shape shape-3"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">V<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="index.html">ទំព័រដើម</a></li>
+                <li><a href="about.html">អំពីខ្ញុំ</a></li>
+                <li><a href="portfolio.html" class="active">ស្នាដៃ</a></li>
+                <li><a href="contact.html">ទំនាក់ទំនង</a></li>
+            </ul>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="ph ph-list"></i>
+            </button>
+        </div>
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="index.html">ទំព័រដើម</a>
+            <a href="about.html">អំពីខ្ញុំ</a>
+            <a href="portfolio.html" class="active">ស្នាដៃ</a>
+            <a href="contact.html">ទំនាក់ទំនង</a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main style="padding-top: 100px; min-height: calc(100vh - 80px);">
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="portfolio" style="padding-top: 2rem;">
+            <div class="container">
+                <div class="section-header fade-up">
+                    <h2>ស្នាដៃ<span>របស់ខ្ញុំ</span></h2>
+                    <p>គម្រោងមួយចំនួនដែលខ្ញុំធ្លាប់បានធ្វើ</p>
+                </div>
+                <div class="portfolio-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card glass-card fade-up">
+                        <div class="project-img">
+                            <img src="assets/ecommerce_mockup.png" alt="E-Commerce Project" class="portfolio-img">
+                        </div>
+                        <div class="project-info">
+                            <h3>E-Commerce Webapp</h3>
+                            <p>គេហទំព័រលក់ទំនិញអនឡាញដែលមានមុខងារបញ្ជាទិញ និងគ្រប់គ្រងទំនិញពេញលេញ។</p>
+                            <div class="project-tags">
+                                <span>React</span>
+                                <span>Node.js</span>
+                            </div>
+                            <a href="project1.html" class="project-link">មើលលម្អិត <i class="ph ph-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <!-- Project 2 -->
+                    <div class="project-card glass-card fade-up delay-1">
+                        <div class="project-img">
+                            <img src="assets/task_mockup.png" alt="Task Management Project" class="portfolio-img">
+                        </div>
+                        <div class="project-info">
+                            <h3>Task Management</h3>
+                            <p>កម្មវិធីគ្រប់គ្រងការងារប្រចាំថ្ងៃ ដែលជួយសម្រួលដល់ការធ្វើការងារជាក្រុម។</p>
+                            <div class="project-tags">
+                                <span>HTML/CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <a href="project2.html" class="project-link">មើលលម្អិត <i class="ph ph-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <!-- Project 3 -->
+                    <div class="project-card glass-card fade-up delay-2">
+                        <div class="project-img">
+                            <img src="assets/photo_mockup.png" alt="Photography Portfolio" class="portfolio-img">
+                        </div>
+                        <div class="project-info">
+                            <h3>Photography Portfolio</h3>
+                            <p>គេហទំព័របង្ហាញរូបភាព និងសេវាកម្មថតរូបសម្រាប់ជាងថតរូបអាជីព។</p>
+                            <div class="project-tags">
+                                <span>UI/UX</span>
+                                <span>Figma</span>
+                            </div>
+                            <a href="project3.html" class="project-link">មើលលម្អិត <i class="ph ph-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 វឌ្ឍនៈ. រក្សាសិទ្ធិគ្រប់យ៉ាង.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

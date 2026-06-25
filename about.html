@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="km">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>អំពីខ្ញុំ - វឌ្ឍនៈ Portfolio</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;600;800&family=Kantumruy+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background Elements -->
+    <div class="bg-shape shape-1"></div>
+    <div class="bg-shape shape-2"></div>
+    <div class="bg-shape shape-3"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">V<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="index.html">ទំព័រដើម</a></li>
+                <li><a href="about.html" class="active">អំពីខ្ញុំ</a></li>
+                <li><a href="portfolio.html">ស្នាដៃ</a></li>
+                <li><a href="contact.html">ទំនាក់ទំនង</a></li>
+            </ul>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="ph ph-list"></i>
+            </button>
+        </div>
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="index.html">ទំព័រដើម</a>
+            <a href="about.html" class="active">អំពីខ្ញុំ</a>
+            <a href="portfolio.html">ស្នាដៃ</a>
+            <a href="contact.html">ទំនាក់ទំនង</a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main style="padding-top: 100px; min-height: calc(100vh - 80px);">
+        <!-- About Section -->
+        <section id="about" class="about" style="padding-top: 2rem;">
+            <div class="container">
+                <div class="section-header fade-up">
+                    <h2>អំពី<span>ខ្ញុំ</span></h2>
+                    <p>ពត៌មានផ្ទាល់ខ្លួន និងជំនាញដែលខ្ញុំមាន</p>
+                </div>
+                <div class="about-content">
+                    <div class="about-text glass-card fade-up">
+                        <h3>ប្រវត្តិសង្ខេប</h3>
+                        <p>ខ្ញុំជាអ្នកអភិវឌ្ឍន៍ជំនាន់ថ្មី ដែលចូលចិត្តស្រាវជ្រាវពីបច្ចេកវិទ្យាថ្មីៗ។ ខ្ញុំផ្តោតលើការសរសេរកូដដែលមានរបៀបរៀបរយ និងការរចនា UI/UX ដែលផ្តល់ភាពងាយស្រួលដល់អ្នកប្រើប្រាស់។</p>
+                        <div class="personal-info">
+                            <div class="info-item">
+                                <i class="ph ph-envelope-simple"></i>
+                                <span>email@example.com</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="ph ph-map-pin"></i>
+                                <span>ភ្នំពេញ, កម្ពុជា</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills fade-up delay-1">
+                        <h3>ជំនាញបច្ចេកទេស</h3>
+                        <div class="skills-grid">
+                            <div class="skill-card glass-card">
+                                <i class="ph ph-code"></i>
+                                <h4>Frontend</h4>
+                                <p>HTML, CSS, JS, React</p>
+                            </div>
+                            <div class="skill-card glass-card">
+                                <i class="ph ph-database"></i>
+                                <h4>Backend</h4>
+                                <p>Node.js, Express, DB</p>
+                            </div>
+                            <div class="skill-card glass-card">
+                                <i class="ph ph-paint-brush"></i>
+                                <h4>UI/UX</h4>
+                                <p>Figma, Prototyping</p>
+                            </div>
+                            <div class="skill-card glass-card">
+                                <i class="ph ph-device-mobile"></i>
+                                <h4>Mobile</h4>
+                                <p>Responsive Design</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 វឌ្ឍនៈ. រក្សាសិទ្ធិគ្រប់យ៉ាង.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

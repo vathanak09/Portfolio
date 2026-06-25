@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="km">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography Portfolio - លម្អិតគម្រោង</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;600;800&family=Kantumruy+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background Elements -->
+    <div class="bg-shape shape-1"></div>
+    <div class="bg-shape shape-2"></div>
+    <div class="bg-shape shape-3"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">V<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="index.html">ទំព័រដើម</a></li>
+                <li><a href="about.html">អំពីខ្ញុំ</a></li>
+                <li><a href="portfolio.html" class="active">ស្នាដៃ</a></li>
+                <li><a href="contact.html">ទំនាក់ទំនង</a></li>
+            </ul>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="ph ph-list"></i>
+            </button>
+        </div>
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="index.html">ទំព័រដើម</a>
+            <a href="about.html">អំពីខ្ញុំ</a>
+            <a href="portfolio.html" class="active">ស្នាដៃ</a>
+            <a href="contact.html">ទំនាក់ទំនង</a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main style="padding-top: 100px; min-height: calc(100vh - 80px);">
+        <section class="project-detail">
+            <div class="container">
+                <a href="portfolio.html" class="back-btn"><i class="ph ph-arrow-left"></i> ត្រឡប់ក្រោយ</a>
+                
+                <div class="detail-header fade-up">
+                    <h1>Photography Portfolio</h1>
+                    <div class="project-tags">
+                        <span>UI/UX Design</span>
+                        <span>Figma</span>
+                        <span>Web Design</span>
+                    </div>
+                </div>
+
+                <div class="detail-hero-image glass-card fade-up delay-1">
+                    <img src="assets/photo_mockup.png" alt="Photography Mockup" class="full-img">
+                </div>
+
+                <div class="detail-content fade-up delay-2">
+                    <div class="content-block glass-card">
+                        <h3>អំពីគម្រោង (Overview)</h3>
+                        <p>ការរចនាគេហទំព័រនេះត្រូវបានបង្កើតឡើងជាពិសេសសម្រាប់អ្នកថតរូបអាជីព ដើម្បីតាំងបង្ហាញរូបភាព និងសេវាកម្មរបស់ពួកគេ។ ការរចនាផ្តោតសំខាន់ទៅលើភាពសាមញ្ញ (Minimalist) ដើម្បីឱ្យរូបថតនីមួយៗមើលទៅលេចធ្លោ និងទាក់ទាញ។</p>
+                    </div>
+                    
+                    <div class="content-block glass-card">
+                        <h3>លក្ខណៈពិសេសនៃការរចនា (Design Highlights)</h3>
+                        <ul>
+                            <li><i class="ph ph-check-circle"></i> ផ្ទៃខាងក្រោយពណ៌ងងឹត ដើម្បីរំលេចពណ៌នៃរូបថត</li>
+                            <li><i class="ph ph-check-circle"></i> របៀបបង្ហាញរូបភាពបែប Gallery (Masonry Layout)</li>
+                            <li><i class="ph ph-check-circle"></i> ទម្រង់ទំនាក់ទំនងសាមញ្ញ និងងាយយល់</li>
+                            <li><i class="ph ph-check-circle"></i> Animation អណ្តែតឡើងទន់ភ្លន់ពេលអូសចុះក្រោម</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 វឌ្ឍនៈ. រក្សាសិទ្ធិគ្រប់យ៉ាង.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
